@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft | Web Development Handbook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animated-bg">
+        <div class="gradient-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="logo-text">Code<span>Craft</span></div>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home link-icon"></i>
+                    <span class="link-text">Home</span>
+                </a>
+                <a href="#docs" class="nav-link">
+                    <i class="fas fa-book link-icon"></i>
+                    <span class="link-text">Documentation for HTML, CSS, and JavaScript</span>
+                </a>
+                <a href="#tutorials" class="nav-link">
+                    <i class="fas fa-play-circle link-icon"></i>
+                    <span class="link-text">Video Tutorials</span>
+                </a>
+            </div>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero-section" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Learn website creation</span>
+                    <span class="title-line">with <span class="highlight">CodeCraft</span></span>
+                </h1>
+                <p class="hero-description">
+                    A comprehensive guide for beginners and experienced developers. 
+ Learn HTML, CSS, and JavaScript from scratch to a professional level 
+ with detailed tutorials and interactive materials.
+                </p>
+                <div class="hero-actions">
+                    <a href="#docs" class="btn btn-primary">
+                        <span>View Documentation</span>
+                        <div class="btn-shine"></div>
+                    </a>
+                    <a href="#tutorials" class="btn btn-secondary">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Watch Video Tutorials</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Веб-разработка" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <div class="tech-scroll-section">
+        <div class="tech-scroll-container">
+            <div class="tech-scroll-track">
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <span>HTML5</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <span>CSS3</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <span>JavaScript</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <span>React</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <span>Vue.js</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <span>Angular</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <span>Node.js</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <span>Python</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <span>Git</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <span>MongoDB</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <span>Docker</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <span>Figma</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <span>HTML5</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <span>CSS3</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <span>JavaScript</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <span>React</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <span>Vue.js</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <span>Angular</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <span>Node.js</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <span>Python</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <span>Git</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <span>MongoDB</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <span>Docker</span>
+                    <div class="tech-glow"></div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <span>Figma</span>
+                    <div class="tech-glow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="documentation-section" id="docs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Documentation for HTML, CSS, and JavaScript</h2>
+                <p class="section-subtitle">Learn the basics of web development with our detailed documentation</p>
+            </div>
+            
+            <div class="docs-categories">
+                <div class="docs-category">
+                    <div class="docs-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="docs-title">HTML Guide</h3>
+                    <p class="docs-description">
+                        Use HTML code structure, basic functions, graphic layout, and other tools to create additional web pages.
+                    </p>
+                    <a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" class="docs-link">
+                        <span>Learn HTML</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="docs-category">
+                    <div class="docs-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="docs-title">CSS Guide</h3>
+                    <p class="docs-description">
+                        Master cascading style sheets: Flexbox, Grid, animations, responsive design, and modern approaches to styling.
+                    </p>
+                    <a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content" class="docs-link">
+                        <span>Learn CSS</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="docs-category">
+                    <div class="docs-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="docs-title">JavaScript Guide</h3>
+                    <p class="docs-description">
+                        Dive into the world of JavaScript: from the basics of syntax to advanced 
+ concepts, DOM manipulation, and working with APIs.
+                    </p>
+                    <a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity" class="docs-link">
+                        <span>Learn JavaScript</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tutorials-section" id="tutorials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Video Tutorials</h2>
+                <p class="section-subtitle">Learn web development with our detailed video tutorials</p>
+            </div>
+            
+            <div class="tutorials-container">
+                <div class="tutorial-slider">
+                    <div class="tutorial-slide active">
+                        <div class="tutorial-video">
+                            <iframe
+                                width="100%"
+                                height="405"
+                                src="https://rutube.ru/play/embed/379fbb00004223707f623c639ea432c8"
+                                style="border: none; border-radius: 15px;"
+                                allow="clipboard-write; autoplay"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №1</h3>
+                        <p class="tutorial-description">
+                            HTML lessons. The first HTML layout lesson. HTML CSS JS lessons.
+                        </p>
+                    </div>
+                    
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">
+                            <iframe
+                                width="100%"
+                                height="405"
+                                src="https://rutube.ru/play/embed/a35b218d983f7b860586addfbb61e974"
+                                style="border: none; border-radius: 15px;"
+                                allow="clipboard-write; autoplay"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №2</h3>
+                        <p class="tutorial-description">
+                            HTML lessons. HTML tags. DIV tag and others. HTML CSS JS lessons.
+                        </p>
+                    </div>
+                    
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">
+                            <iframe
+                                width="100%"
+                                height="405"
+                                src="https://rutube.ru/play/embed/a59025132a9391fd099bf2754fa0aad4"
+                                style="border: none; border-radius: 15px;"
+                                allow="clipboard-write; autoplay"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №3</h3>
+                        <p class="tutorial-description">
+                            HTML lessons. HTML tags for CONTENT. HTML CSS JS lessons.
+                        </p>
+                    </div>
+                
+                <div class="tutorial-slide">
+                        <div class="tutorial-video">            
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/9241593f0eccb9f538fb7f325efa1f8f"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №4</h3>
+                        <p class="tutorial-description">
+                            HTML lesson. The HTML tag of the form. HTML input. HTML CSS and JS lesson.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/e483435ecbfa62c77893e632da00e502"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №5</h3>
+                        <p class="tutorial-description">
+                            CSS syntax. Resetting CSS styles. HTML CSS JS tutorials.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">   
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/cf8d72f66bdceac4ce1e6b5f51d8b608"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №6</h3>
+                        <p class="tutorial-description">
+                            Style Font and text. CSS font-size. CSS color, CSS text-shadow. Evil eye.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">     
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/24a678e8bfb57b0d2ae54f3d90971763"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №7</h3>
+                        <p class="tutorial-description">
+                            Block properties. CSS padding. CSS margin. CSS display. CSS HTML JS lessons.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/d4d026013630f48f877d25a4aa2b1d00"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №8</h3>
+                        <p class="tutorial-description">
+                            Properties and styles of block formatting. CSS opacity. HTML CSS JS lessons.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">   
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/d796a745e50dc8d848b35d194afc80cc"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №9</h3>
+                        <p class="tutorial-description">
+                            CSS property BACKGROUND. Creating a background for a website // HTML CSS JS tutorials.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">  
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/e27ed77346608ca32a8c7dcc4abb7ab1"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №10</h3>
+                        <p class="tutorial-description">
+                            CSS pseudo-classes. HOVER pseudo-class and others. HTML CSS JS lessons.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">  
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/93a46f14113c1b700ea0a69aaca96ce4"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №11</h3>
+                        <p class="tutorial-description">
+                            CSS pseudo-elements. BEFORE and AFTER pseudo-elements. HTML CSS JS lessons.
+                        </p>
+                    </div>
+
+                    <div class="tutorial-slide">
+                        <div class="tutorial-video">
+                        <iframe
+                            width="100%"
+                            height="405"
+                            src="https://rutube.ru/play/embed/473f39e1089b1b2858d2de51b057d01b"
+                            style="border: none; border-radius: 15px;"
+                            allow="clipboard-write; autoplay"
+                            allowFullScreen
+                        ></iframe>
+                        </div>
+                        <h3 class="tutorial-title">Lesson №12</h3>
+                        <p class="tutorial-description">
+                            CSS positioning (CSS position). HTML CSS JS lessons.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevSlide">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn" id="nextSlide">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="slider-dots">
+                    <button class="slider-dot active" data-slide="0"></button>
+                    <button class="slider-dot" data-slide="1"></button>
+                    <button class="slider-dot" data-slide="2"></button>
+                    <button class="slider-dot" data-slide="3"></button>
+                    <button class="slider-dot" data-slide="4"></button>
+                    <button class="slider-dot" data-slide="5"></button>
+                    <button class="slider-dot" data-slide="6"></button>
+                    <button class="slider-dot" data-slide="7"></button>
+                    <button class="slider-dot" data-slide="8"></button>
+                    <button class="slider-dot" data-slide="9"></button>
+                    <button class="slider-dot" data-slide="10"></button>
+                    <button class="slider-dot" data-slide="11"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
