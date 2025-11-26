@@ -1,5 +1,3 @@
----
-
 # 🛠️ CodeCraft  
 ### *The Web Development Handbook Forged in Code and Light*
 
