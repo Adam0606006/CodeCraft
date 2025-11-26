@@ -1,44 +1,43 @@
+---
+
 # 🛠️ CodeCraft  
-### *Справочник по веб-разработке, выкованный в коде и свете*
+### *The Web Development Handbook Forged in Code and Light*
 
 > **Where Code Meets Craft**  
-> *Просто знания — легко забываются. Понимание — остаётся навсегда.*
+> *Simple knowledge is easily forgotten. True understanding lasts forever.*
 
-🔗 **[Официальный сайт → codecraftio.vercel.app](https://codecraftio.vercel.app)**  
-
----
-
-## 🌌 О проекте:
-
-**CodeCraft** — это не просто документация.  
-Это — *атмосфера*, в которой HTML, CSS и JavaScript перестают быть синтаксисом и становятся **языком творчества**.
-
-Мы собрали самое важное — без воды, без шума — в одном месте:  
-✔️ Чёткие руководства  
-✔️ Интерактивные примеры  
-✔️ Видеоуроки от основ к практике  
-✔️ Современный, вдохновляющий интерфейс  
-
-Всё — чтобы вы не просто *читали*, а *вникали*.  
-Не просто *копировали*, а *понимали*.
+🔗 **[Official Website → codecraftio.vercel.app](https://codecraftio.vercel.app)**  
 
 ---
 
+## 🌌 About the Project:
 
-## 🧰 Технологии в основе:
+**CodeCraft** is not just documentation.  
+It's an *atmosphere* where HTML, CSS, and JavaScript stop being syntax and become a **language of creation**.
+
+We've gathered the most essential knowledge — without fluff, without noise — in one place:  
+✔️ Clear guides  
+✔️ Interactive examples  
+✔️ Video tutorials from basics to practice  
+✔️ Modern, inspiring interface  
+
+Everything is designed so you don't just *read*, but *comprehend*.  
+Don't just *copy*, but *understand*.
+
+---
+
+## 🧰 Core Technologies:
 
 `HTML5` • `CSS3` • `JavaScript` • `Responsive Design` • `Vercel`  
 
 ---
 
-## 📺 Документация:
+## 📚 Documentation:
 
-<div align="center">
+| Guide | Description | Link |
+|-------|-------------|------|
+| 📖 **HTML Guide** | Complete HTML5 reference with examples | [View Guide](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| 🎨 **CSS Guide** | Modern CSS techniques and layouts | [View Guide](https://developer.mozilla.org/en-US/docs/Web/CSS) |
+| ⚡ **JavaScript Guide** | From fundamentals to advanced concepts | [View Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 
-| 📘 Документация | 
-| --------------- |
-| [📖 HTML Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content) | 
-| [🎨 CSS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content) |
-| [⚡ JS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity) |
-
-</div>
+---
