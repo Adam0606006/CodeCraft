@@ -37,20 +37,3 @@ Don't just *copy*, but *understand*.
 | 📖 **HTML Guide** | Complete HTML5 reference with examples | [View Guide](https://developer.mozilla.org/en-US/docs/Web/HTML) |
 | 🎨 **CSS Guide** | Modern CSS techniques and layouts | [View Guide](https://developer.mozilla.org/en-US/docs/Web/CSS) |
 | ⚡ **JavaScript Guide** | From fundamentals to advanced concepts | [View Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-
----
-
-## 🚀 Quick Start
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My First CodeCraft</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Welcome to Web Development</h1>
-    <script src="script.js"></script>
-</body>
-</html>
