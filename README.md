@@ -36,11 +36,9 @@
 <div align="center">
 
 | 📘 Документация | 
-|------------------|
+| --------------- |
 | [📖 HTML Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content) | 
-|------------------|
 | [🎨 CSS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content) |
-|------------------|
 | [⚡ JS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity) |
 
 </div>
