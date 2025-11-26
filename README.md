@@ -31,14 +31,12 @@
 
 ---
 
-## 📺 Документация & Видеоуроки:
+## 📺 Документация:
 
 <div align="center">
 
-| 📘 Документация | ▶️ Видеоуроки |
-|------------------|----------------|
-| [📖 HTML Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content) | [▶️ Lesson 1 — HTML Basics](https://rutube.ru/play/embed/379fbb00004223707f623c639ea432c8) |
-| [🎨 CSS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content) | [▶️ Lesson 2 — HTML Tags](https://rutube.ru/play/embed/a35b218d983f7b860586addfbb61e974) |
-| [⚡ JS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity) | [▶️ Lesson 3 — Content Tags](https://rutube.ru/play/embed/a59025132a9391fd099bf2754fa0aad4) |
+| 📘 Документация | 
+|------------------|
+| [📖 HTML Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content) | [🎨 CSS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content) |[⚡ JS Guide](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity) |
 
 </div>
